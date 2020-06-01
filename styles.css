@@ -1,0 +1,66 @@
+/* ------------- LAYOUT --------------- */
+body {
+  display: flex;
+  justify-content: center;
+
+}
+.main-container {
+  display: flex;
+  width: 1200px;
+
+}
+
+/* ------------- GENERAL -------------- */
+ul {
+  list-style-type: circle;
+}
+
+/* ------------- ASIDE ---------------- */
+aside {
+  background-color: #B8DAF2;
+  flex-basis: 25%;
+  margin-right: 20px;
+  padding: 10px;
+}
+aside * {
+  color: black;
+}
+aside h2 {
+  letter-spacing: 3px;
+}
+aside section h2:first-child{
+  border-bottom: 2px solid black;
+
+}
+#profile-pic {
+  text-align: center;
+
+}
+#profile-pic img{
+  border-radius: 50%;
+  width: 200px;
+}
+
+/* ------------- MAIN ---------------- */
+main {
+  flex-basis: 50%;
+}
+main section > h2 {
+  letter-spacing: 2px;
+}
+.hero {
+  background-color: white;
+  padding: 10% 0;
+  text-align: center;
+
+}
+.hero h2 {
+  color: black;
+  border-top: 2px solid #8C8C8C;
+}
+.hero h1 {
+  letter-spacing: 5px;
+}
+.linea{
+  border-bottom: solid 2px black;
+}
